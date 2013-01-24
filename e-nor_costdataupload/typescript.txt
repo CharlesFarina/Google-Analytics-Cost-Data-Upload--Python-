@@ -1,0 +1,20 @@
+cd Desktop/upload_cost_data
+./upload_csv_file.py 2012-11-14 ~/Desktop/facebook_tampa_2012-11-15.csv 
+
+
+./upload_csv_file.py --help
+
+
+./upload_csv_file.py --append_number 2 2012-11-14 ~/Desktop/facebook_tampa_2012-11-15.csv 
+
+
+./upload_csv_file.py --reset_date 2012-11-14 ~/Desktop/facebook_tampa_2012-11-15.csv 
+
+
+
+cd Desktop/upload_cost_data
+./upload_csv_file.py 2012-11-01 ~/Desktop/E-Nor_Facebook/facebook_e-nor_2012-11-1.csv 
+
+https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/dailyUploads/delete#try-it
+
+./upload_csv_file.py --reset_date 2012-11-15 ~/Desktop/facebook_tampa_2012-11-15.csv 
